@@ -9,8 +9,8 @@ temp = open('C:/workspace/python/cli/assets/template.html')
 entry = sys.argv[1::]
 
 def fronta() :
-    print('----------------- Creating Project ------------------')
     dire = input('Type Project name: ')
+    print('Creating your project... ')
     if os.path.exists(dire) :
         os.system('cls')
         print(f'The project({dire}) Already exists...')

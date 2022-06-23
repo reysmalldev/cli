@@ -7,8 +7,8 @@
 ### Usage:
 ```
 creator --html
-> Criando seu Projeto...
-> Insira o nome do projeto...
+> Type project name:
+> Creating your project...
 ```
 
 ### How to install this project?
