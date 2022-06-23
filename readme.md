@@ -18,8 +18,8 @@ creator --html
 
 **Use this commands in your command-line...**
 ```
-git clone https://github.com/reysmalldev/cli
-cd cli
+> git clone https://github.com/reysmalldev/cli
+> cd cli
 ```
 ### Configurations: 
 *Is required have [python](https://www.python.org/) installed...*
