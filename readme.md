@@ -25,7 +25,6 @@ cd cli
 
 # Credits:
 
-## Creator: **reysmalldev** , 
-<img src="https://avatars.githubusercontent.com/u/88351922?v=4"></img>
-
+## Creator: **[reysmalldev](https://github.com/reysmalldev)**  
+<img src="https://avatars.githubusercontent.com/u/88351922?v=4" width="300px" style="border-radius: 50%; margin: 20px;"></img>
 ### I created this project to save time, and to improve my knowledge in python and learn a bit about .bat files :)
