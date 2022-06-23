@@ -23,7 +23,7 @@ creator --html
 ```
 ### Configurations: 
 *Is required have [python](https://www.python.org/) installed...*
-*Is required add project directory to Environment Variables in Windows...*
+*Is required add project directory to Path Environment Variables in Windows...*
 *Go to this tutorial to learn how to do it* [Tutorial](https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html#GUID-DD6F9982-60D5-48F6-8270-A27EC53807D0)
 
 # Credits:
