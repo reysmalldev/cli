@@ -9,10 +9,17 @@ temp = open('C:/workspace/python/cli/assets/template.html')
 entry = sys.argv[1::]
 
 def fronta() :
-    print('----------------- Criando seu projeto ------------------')
-    dire = input('Insira o nome do projeto: ')
+    print('Creating You Project... ')
+    dire = input('Type Project name: ')
     if os.path.exists(dire) :
-        print('O projeto(newProject) já existe...')
+        os.system('cls')
+        print(f'The project({dire}) Already exists...')
+        option = input('Want create with other name?(y/n)')
+        if option == 'y' :
+            fronta()
+        else:
+            print('Program finished...')
+            sys.exit
     else:
         os.mkdir(dire)
     with open(f'{dire}/{HTML}','w') as f_i:
@@ -21,6 +28,14 @@ def fronta() :
         f_i.close()
         open(f'{dire}/{CSS}', 'w')
         open(f'{dire}/{JS}', 'w')
+
+def default():
+    print('Use "creator --html to create a Html Project!..."')
+
 # Verifyer of flags
-if entry[1] == '--html' :
-    fronta()
+
+if len(entry) == 2:
+    if entry[1] == '--html' :
+        fronta()
+else:
+    default()
