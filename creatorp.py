@@ -4,7 +4,7 @@ import os
 HTML = 'index.html'
 CSS = 'style.css'
 JS = 'script.js'
-temp = open('C:/workspace/python/cli/assets/template.html')
+temp = open('assets/template.html')
 # arguments for receive on script is executed
 entry = sys.argv[1::]
 
@@ -27,18 +27,19 @@ def fronta() :
     else:
         # create a folder with dire variable value(name)
         os.mkdir(dire)
-    #open dire folder and create a html file
-    with open(f'{dire}/{HTML}','w') as f_i:
+        #open dire folder and create a html file
+        with open(f'{dire}/{HTML}','w') as f_i:
         # read template file and save in temp1 var
-        temp1 = temp.read()
-        # write in f_i(html file) a same text that exists in template
-        f_i.write(temp1)
-        # close file
-        f_i.close()
-        # create css file
-        open(f'{dire}/{CSS}', 'w')
-        # create javascript file
-        open(f'{dire}/{JS}', 'w')
+            temp1 = temp.read()
+            # write in f_i(html file) a same text that exists in template
+            f_i.write(temp1)
+            # close file
+            f_i.close()
+            # create css file
+            open(f'{dire}/{CSS}', 'w')
+            # create javascript file
+            open(f'{dire}/{JS}', 'w')
+            print('Your project is created with sucess!')
 
 def default():
     print('Use "creator --html to create a Html Project!..."')
