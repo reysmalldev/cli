@@ -29,5 +29,5 @@ creator --html
 # Credits:
 
 ## Creator: **[reysmalldev](https://github.com/reysmalldev)**  
-<img src="https://avatars.githubusercontent.com/u/88351922?v=4" width="300px" style="border-radius: 50%;"></img>
+<img src="https://avatars.githubusercontent.com/u/88351922?v=4" width="300px" style="border-radius: 50px;"></img>
 ### I created this project to save time, and to improve my knowledge in python and learn a bit about .bat files :)
